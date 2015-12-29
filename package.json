@@ -1,0 +1,61 @@
+{
+  "name": "singlepage_vue_html_scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "javascript",
+    "template"
+  ],
+  "author": "jakerunzer",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-eslint": "^4.1.5",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-runtime": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-runtime": "^6.2.0",
+    "bower-files": "^3.11.3",
+    "connect-history-api-fallback": "^1.1.0",
+    "css-loader": "^0.21.0",
+    "eslint": "^1.9.0",
+    "eslint-loader": "^1.1.1",
+    "eslint-plugin-babel": "^2.1.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.0",
+    "gulp-beautify": "^2.0.0",
+    "gulp-changed": "^1.3.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^1.1.0",
+    "gulp-flatten": "^0.2.0",
+    "gulp-if": "^2.0.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-print": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "gulp-webserver": "^0.9.1",
+    "rimraf": "^2.4.3",
+    "style-loader": "^0.13.0",
+    "uglify-loader": "^1.3.0",
+    "vue-hot-reload-api": "^1.2.1",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^7.1.1",
+    "webpack": "^1.12.6",
+    "webpack-stream": "^2.1.1"
+  },
+  "dependencies": {
+    "vue": "^1.0.8",
+    "vue-router": "^0.7.6"
+  }
+}

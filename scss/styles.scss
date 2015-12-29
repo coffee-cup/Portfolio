@@ -1,0 +1,129 @@
+@import 'normalize';
+@import 'sass-css3-mixins';
+@import '../bower_components/Scut/dist/scut';
+@import 'susy';
+@import 'animated';
+@import 'variables';
+@import 'helpers';
+@import 'fonts';
+
+// Grid settings
+$susy: (
+  columns: 12,
+  gutters: .25,
+  global-box-sizing: border-box,
+  gutter-position: inside
+  );
+
+/* Makes border-box properties */
+@include border-box-sizing;
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $sans;
+  color: $text-dark;
+
+  line-height: 1.5;
+}
+
+.light {
+ font-family: $sans;
+ font-weight: 200;
+}
+
+.regular {
+  font-family: $sans;
+  font-weight: normal;
+}
+
+h1, h2 {
+  @extend .light;
+}
+
+#app {
+  @include container;
+}
+
+a {
+  color: $text-dark;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $accent-colour;
+  text-decoration: underline;
+}
+
+.fix100 {
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+  a {
+    @media(max-width: $mobile) {
+      @include span(100%);
+    }
+  }
+
+  a:first-child {
+    @media(min-width: $mobile) {
+      padding-right: 1em;
+    }
+  }
+}
+
+header {
+  margin-top: -3em;
+  @media(max-width: $mobile) {
+    margin-top: -4em;
+  }
+
+  #hi-im {
+    margin-top: -1em;
+    @media(max-width: $mobile) {
+      margin-top: -1.5em;
+    }
+  }
+}
+
+#tagline {
+  position: relative;
+  top: 22%;
+  transform: translateY(-50%);
+}
+
+#arrow {
+  position: absolute;
+  bottom: 0.5em;
+  width: 100%;
+
+  img {
+    width: 1em;
+  }
+}
+
+.footer {
+  background-color: $main-colour;
+  height: 4em;
+  padding-top: 1.5em;
+  padding-left: 2em;
+  color: $text-dark;
+
+  p {
+    margin-top: 0;
+  }
+
+  a {
+    color: $text-dark;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}

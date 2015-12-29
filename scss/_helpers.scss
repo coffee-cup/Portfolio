@@ -1,0 +1,118 @@
+@import 'variables';
+
+// GRID
+
+$tablet-max: 90%;
+$mobile-max: 94%;
+
+.c100 {
+  @include container(100%);
+}
+
+.c80r {
+  @include container(80%);
+  @media (max-width: $tablet) {
+    @include container($tablet-max);
+  }
+  @media (max-width: $mobile) {
+    @include container($mobile-max);
+  }
+}
+
+.s100 {
+  @include span(100%);
+}
+
+.s80 {
+  @include span(80%);
+}
+
+.s80r {
+  @include span(80%);
+  @media (max-width: $tablet) {
+    @include span($tablet-max);
+  }
+  @media (max-width: $tablet) {
+    @include span($mobile-max);
+  }
+}
+
+.s50m100 {
+  @include span(50%);
+  @media(max-width: $mobile) {
+    @include span(100%);
+  }
+}
+
+.center-vert {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+// TYPOGRAPHY
+
+.tright {
+  text-align: right;
+}
+
+.tcenter {
+  text-align: center;
+}
+
+.serif {
+  font-family: $serif;
+}
+
+.mono {
+  font-family: $mono;
+}
+
+.sans {
+  font-family: $sans;
+}
+
+// WHITE SPACE
+.page-top {
+  padding-top: 3.125rem;
+}
+
+.vh {
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.mt-1 {
+  margin-top: -1em;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.pt0 {
+  padding-top: 0;
+}
+
+.pb0 {
+  padding-bottom: 0;
+}
+
+// UTILS
+
+.center-img {
+  display: block;
+  margin: auto;
+}

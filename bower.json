@@ -1,0 +1,30 @@
+{
+  "name": "singlepage_vue_html_scss",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "jakerunzer"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "html",
+    "javascript",
+    "template"
+  ],
+  "moduleType": [
+    "es6",
+    "globals"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "Scut": "scut#~1.3.0"
+  }
+}
