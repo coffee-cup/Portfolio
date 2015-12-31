@@ -255,13 +255,21 @@ $mobile-max: 94%;
   color: $text-dark;
 }
 
-.inline {
-  display: inline;
-}
-
 .no-link:hover {
   text-decoration: none;
   color: $text-dark;
+}
+
+.no-under {
+  text-decoration: none;
+}
+
+.no-under:hover {
+  text-decoration: none;
+}
+
+.inline {
+  display: inline;
 }
 
 .center-img {
