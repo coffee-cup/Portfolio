@@ -11,7 +11,7 @@
       <p class='s100'>
         Software Engineering student <br>
         studying at the <br>
-        <a href="https://www.google.ca/maps/place/University+of+Victoria/@49.0284597,-114.7863023,5z/data=!4m2!3m1!1s0x548f71575d850fbd:0xc039d0b85e1ede74">University of Victoria <span class="icomoon-map-marker"></span></a>
+        <a href="https://www.google.ca/maps/place/University+of+Victoria/@48.5362045,-121.6857164,5z/data=!4m2!3m1!1s0x548f71575d850fbd:0xc039d0b85e1ede74">University of Victoria <span class="icomoon-map-marker"></span></a>
       </p>
 
     </header>
