@@ -1,7 +1,7 @@
 export default [{
   'title': 'Wish List',
   'short': 'Online gift registry for holidays and events',
-  'long': 'Inspired by wedding registries, Wish List is an online gift registry for all holidays and events. Copy and paste Amazon links to items you would like, or add photos and add notes about items you see in the store. Invite your friends and family to your list and they can see exactly what you want when a special time of year approaches. It was originally created in 48 hours.',
+  'long': 'Inspired by wedding registries, Wish List is an online gift registry for all holidays and events. Copy and paste Amazon links to items you would like, or link photos and add notes about items you see in the store. Invite your friends and family to your list and they can see exactly what you want when a special time of year approaches. It was originally created in 48 hours.',
   'logo': '/WishList/gift.svg',
   'made': 'MeteorJS, MongoDB, JavaScript',
   'website': 'https://thewishlist.xyz',
