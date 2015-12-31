@@ -10,7 +10,7 @@
             <span class="icomoon-email"></span>
           </h1>
         </span>
-        <h3 class="s100 light mt0 contact-title">Send me an email</h3>
+        <h4 class="s100 light mt0 contact-title">Send me an email</h4>
       </div>
       </a>
 
@@ -21,7 +21,7 @@
             <span class="icomoon-github"></span>
           </h1>
         </span>
-        <h3 class="s100 light mt0 contact-title">Check out my projects</h3>
+        <h4 class="s100 light mt0 contact-title">Check out my projects</h4>
       </div>
       </a>
 
@@ -32,7 +32,7 @@
             <span class="icomoon-twitter"></span>
           </h1>
         </span>
-        <h3 class="s100 light mt0 contact-title">Follow me on Twitter</h3>
+        <h4 class="s100 light mt0 contact-title">Follow me on Twitter</h4>
       </div>
       </a>
 
@@ -44,7 +44,7 @@
             <span class="icomoon-linkedin"></span>
           </h1>
         </span>
-        <h3 class="s100 light mt0 contact-title">Connect on LinkedIn</h3>
+        <h4 class="s100 light mt0 contact-title">Connect on LinkedIn</h4>
       </div>
       </a>
 
