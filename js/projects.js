@@ -73,7 +73,7 @@ export default [{
   'short': 'Maze solver using A* algorithm',
   'long': 'Simple desktop app maze solver made with the Java Swing GUI library. Users can draw wall tiles and set a start and finish point. The best path is found using the A* algorithm',
   'logo': '/MazeSolver/MazeIcon.svg',
-  'made': 'Java, Swing',
+  'made': 'Java, Swing, A* Search',
   'website': false,
   'download': 'https://dl.dropboxusercontent.com/u/51499927/ProgrammingProjects/MazeSolver.jar',
   'github': 'https://github.com/coffee-cup/MazeSolver',
@@ -88,6 +88,6 @@ export default [{
   'website': false,
   'download': 'https://dl.dropboxusercontent.com/u/51499927/ProgrammingProjects/SudokuSolver.jar',
   'github': 'https://github.com/coffee-cup/SudokuSolver',
-  'screenshot1': '/SudokuSolver/SolverSolvedScreenshot.png',
-  'screenshot2': '/SudokuSolver/SolverUnSolvedScreenshot.png'
+  'screenshot1': '/SudokuSolver/SolverUnSolvedScreenshot.png',
+  'screenshot2': '/SudokuSolver/SolverSolvedScreenshot.png'
 }];
