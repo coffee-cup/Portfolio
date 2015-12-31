@@ -1,4 +1,4 @@
 # Jake's Runzer Portfolio
 --------------------------
 
-My space is located [http://jakerunzer.xyz](here).
+My space is located [here](http://jakerunzer.xyz).
