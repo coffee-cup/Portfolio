@@ -182,3 +182,5 @@ build
 
 ## Secrets
 secret.js
+
+*.sublime-project

@@ -1,13 +1,17 @@
 <template>
 
-    <div class="footer">
-        <p>Made with ❤ by <a href='https://twitter.com/jakerunzer'>@jakerunzer</a></p>
+  <div class="footer c100 main-colour">
+    <div class="s100">
+      <div class="c80r">
+        <p>Made with &hearts; by <a href='https://twitter.com/jakerunzer'>@jakerunzer</a></p>
+      </div>
     </div>
+  </div>
 
 </template>
 
 <script>
-export default {
-  name: 'Footer'
-}
+  export default {
+    name: 'Footer'
+  }
 </script>

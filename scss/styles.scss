@@ -4,7 +4,6 @@
 @import 'susy';
 @import 'animated';
 @import 'variables';
-@import 'helpers';
 @import 'fonts';
 
 // Grid settings
@@ -63,6 +62,240 @@ a:hover {
   width: 100%;
 }
 
+// COLOURS
+
+.main-colour {
+  background-color: $main-colour;
+}
+
+.dark-colour {
+  background-color: $text-dark;
+  color: $text-light;
+}
+
+// GRID
+
+$tablet-max: 90%;
+$mobile-max: 94%;
+
+@mixin span-m100($width) {
+  @include span($width);
+  @media (max-width: $mobile) {
+    @include span(100%);
+  }
+}
+
+.c80r {
+  @include container(80%);
+  @media (max-width: $tablet) {
+    @include container($tablet-max);
+  }
+  @media (max-width: $mobile) {
+    @include container($mobile-max);
+  }
+}
+
+.c100 {
+  @include container(100%);
+}
+
+.s10 {
+  @include span(10%);
+}
+
+.s20 {
+  @include span(20%);
+}
+
+.s20r {
+  @include span(20%);
+  @media (max-width: $mobile) {
+    @include span($mobile-max);
+  }
+}
+
+.s30 {
+  @include span(30%);
+}
+
+.s30m100 {
+  @include span-m100(30%);
+}
+
+.s40m100 {
+  @include span-m100(40%);
+}
+
+.s50m100 {
+  @include span-m100(50%);
+}
+
+.s60m100 {
+  @include span-m100(60%);
+}
+
+.s70 {
+  @include span(70%);
+}
+
+.s70m100 {
+  @include span-m100(70%);
+}
+
+.s80 {
+  @include span(80%);
+}
+
+.s80m100 {
+  @include span-m100(80%);
+}
+
+.s80r {
+  @include span(80%);
+  @media (max-width: $mobile) {
+    @include span($mobile-max);
+  }
+}
+
+.s90 {
+  @include span(90%);
+}
+
+.s100 {
+  @include span(100%);
+}
+
+.pr {
+  @media (min-width: $mobile) {
+    padding-left: 2rem;
+  }
+}
+
+.mw100 {
+  width: 100%;
+  max-width: 100%;
+}
+
+// TYPOGRAPHY
+
+.tright {
+  text-align: right;
+}
+
+.tcenter {
+  text-align: center;
+}
+
+.serif {
+  font-family: $serif;
+}
+
+.mono {
+  font-family: $mono;
+}
+
+.sans {
+  font-family: $sans;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.gray {
+  color: gray;
+}
+
+// WHITE SPACE
+.page-top {
+  padding-top: 3.125rem;
+}
+
+.vh {
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.mt-05 {
+  margin-top: -0.5rem;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.mt-1 {
+  margin-top: -1em;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.pt0 {
+  padding-top: 0;
+}
+
+.pb0 {
+  padding-bottom: 0;
+}
+
+// UTILS
+
+.no-link {
+  text-decoration: none;
+  color: $text-dark;
+}
+
+.inline {
+  display: inline;
+}
+
+.no-link:hover {
+  text-decoration: none;
+  color: $text-dark;
+}
+
+.center-img {
+  display: block;
+  margin: auto;
+}
+
+.center-vert {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.row-section {
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+
+  h1:first-child {
+    margin-top: 0;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.contact-icon {
+  max-width: 4rem;
+}
+
+.contact-row {
+  font-size: 2rem;
+}
+
 nav {
   a {
     @media(max-width: $mobile) {
@@ -71,7 +304,7 @@ nav {
   }
 
   a:first-child {
-    @media(min-width: $mobile) {
+    @media (min-width: $mobile) {
       padding-right: 1em;
     }
   }
@@ -99,7 +332,7 @@ header {
 
 #arrow {
   position: absolute;
-  bottom: 0.5em;
+  bottom: 1rem;
   width: 100%;
 
   img {
@@ -107,23 +340,44 @@ header {
   }
 }
 
-.footer {
-  background-color: $main-colour;
+#space {
+  // margin-top: -0.5em;
+}
+
+.screenshot img {
+  max-width: 100%;
+
+  @media (min-width: $mobile) {
+    // padding: 0 2rem;
+  }
+}
+
+.screenshot:first-child img {
+  margin-bottom: 0.5rem;
+  @media (max-width: $mobile) {
+    margin-top: 1rem;
+  }
+}
+
+.project-section {
+  padding-top: $section-padding;
+
+  .project {
+    padding-bottom: $section-padding;
+    border-bottom: solid 2px $text-dark;
+  }
+}
+
+.project-header {
+  @media (min-width: $tablet) {
+    margin-top: 1em;
+  }
+}
+
+.project-logo img {
+  max-height: 5rem;
+}
+
+footer {
   height: 4em;
-  padding-top: 1.5em;
-  padding-left: 2em;
-  color: $text-dark;
-
-  p {
-    margin-top: 0;
-  }
-
-  a {
-    color: $text-dark;
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
 }

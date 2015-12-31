@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="314px" height="285px" viewBox="0 0 314 285" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>boomz_logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Portfolio" sketch:type="MSArtboardGroup" transform="translate(-40.000000, -60.000000)">
+            <g id="boomz_logo" sketch:type="MSLayerGroup" transform="translate(45.000000, 65.937500)">
+                <g id="Main" sketch:type="MSShapeGroup">
+                    <ellipse id="Oval" fill="#B9121B" cx="150.509138" cy="171.662536" rx="96.5013055" ry="96.3061224"></ellipse>
+                    <path d="M59.4125326,231.580266 C59.4125326,231.580266 25.8877285,173.773141 58.1984334,116.35687 C23.8120104,132.420918 9.16449086,147.742347 5.75718016,163.76731 L1.84073107,163.76731 C1.13577023,163.76731 0,164.197249 0,164.900784 L0,179.401421 C0,180.104956 1.13577023,180.964832 1.84073107,180.964832 L6.50130548,180.964832 C15.2349869,210.27879 59.4125326,231.580266 59.4125326,231.580266 L59.4125326,231.580266 Z" id="Shape" fill="#332F2F"></path>
+                    <path d="M240.274151,230.642219 C240.274151,230.642219 273.798956,173.304118 241.488251,115.887846 C275.874674,131.951895 290.522193,147.351494 293.890339,163.76731 L297.806789,163.76731 C298.511749,163.76731 299.960836,163.141946 299.960836,163.845481 L299.960836,178.346119 C299.960836,179.049654 298.511749,180.222212 297.806789,180.222212 L293.146214,180.222212 C284.451697,208.715379 240.274151,230.642219 240.274151,230.642219 L240.274151,230.642219 Z" id="Shape" fill="#332F2F"></path>
+                    <path d="M2.74151436,166.698706 C2.74151436,-55.6965197 296.866841,-54.9148141 296.866841,166.698706" id="Shape" stroke="#332F2F" stroke-width="5"></path>
+                    <path d="M2.74151436,172.756924 C2.74151436,-34.7858965 296.866841,-33.6133382 296.866841,172.756924" id="Shape" stroke="#332F2F" stroke-width="2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

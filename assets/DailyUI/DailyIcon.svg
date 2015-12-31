@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="254px" height="254px" viewBox="0 0 254 254" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path id="path-3" d="M81.6573151,0.123988806 C55.0790505,0.123988806 46.5859955,0.123988787 34.5958002,4.12072056 C20.4673541,9.11663526 9.11663526,20.4673541 4.12072056,34.5958002 C0.123988806,46.5859955 0.123988806,55.0790505 0.123988806,81.6573151 C0.123988806,81.6573151 0.123988954,158.39456 0.123988806,158.39456 C0.123988954,184.972833 0.123988925,193.465888 4.12072056,205.456083 C9.12590502,219.584529 20.4673541,230.935248 34.5958002,235.931162 C46.5859955,239.927894 55.0790505,239.927894 81.6573151,239.927894 L158.39456,239.927894 C184.972833,239.927894 193.465888,239.927894 205.456083,235.931162 C219.584529,230.935248 230.935248,219.584529 235.931162,205.456083 C239.927894,193.465888 239.927894,184.972833 239.927894,158.39456 L239.927894,81.6573151 C239.927894,55.0790505 239.927894,46.5859955 235.931162,34.5958002 C230.935248,20.6072391 219.424656,9.11663526 205.436095,4.12072056 C193.4459,0.123988817 184.972833,0.123988848 158.39456,0.123988806 C172.383121,0.123988848 81.6573151,0.123988806 81.6573151,0.123988806 Z"></path>
+        <path d="M1.76602776,41.9394195 L0.0531427209,41.9394195 L1.76602776,226.113509 L241.569933,226.113509 L241.569933,70.4346006 L197.882982,70.4346006 C200.820994,88.1020724 201.773013,104.683438 201.523801,114.566703 C202.431333,149.182841 196.609945,186.19584 124.708867,186.19584 C52.8077897,186.19584 47.728443,147.460732 47.728443,113.8793 C47.728443,103.637105 49.8669287,86.8271639 54.5280713,69.3090429 L69.4461335,69.3090429 L69.4461335,41.2557832 L1.76602776,41.2557832 L1.76602776,41.9394195 Z" id="path-5"></path>
+    </defs>
+    <g id="005_AppIcon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Share" sketch:type="MSArtboardGroup" transform="translate(-73.000000, -27.000000)">
+            <g id="Icon" sketch:type="MSLayerGroup" transform="translate(80.000000, 30.000000)">
+                <mask id="mask-4" sketch:name="Mask" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="Mask" fill="url(#linearGradient-1)" filter="url(#filter-2)" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
+                <g id="Sun" mask="url(#mask-4)" sketch:type="MSShapeGroup">
+                    <g transform="translate(-2.001322, -1.588896)">
+                        <path d="M241.032025,59.007283 L18.0870035,225.639688 L244.938768,225.639688 L244.649597,58.4334425" id="Path-6" stroke="none" fill="#22FC2D"></path>
+                        <path d="M241.614699,58.5138005 L17.8284207,225.996612 L0.0540745092,225.99418 L0.0540745092,56.6035065 L241.614699,58.5138005 Z" id="Path-5" stroke="none" fill="#03DD0E"></path>
+                        <path d="M241.756919,59.2556571 L84.6199185,1.20745039e-08 L1.32066605,1.20744937e-08 L1.32066605,59.2556593" id="Path-4" stroke="#979797" stroke-width="1" fill="#03B50C"></path>
+                        <path d="M241.832763,60.5430612 L85.0153787,0.616539002 L244.729585,0.616539002" id="Path-2" stroke="none" fill="#026406"></path>
+                    </g>
+                </g>
+                <g id="U" mask="url(#mask-4)">
+                    <g transform="translate(-1.642039, 15.527271)">
+                        <ellipse id="Oval-14" stroke="none" fill="#1B1B21" fill-rule="evenodd" sketch:type="MSShapeGroup" cx="223.58464" cy="29.9881717" rx="29.9754882" ry="29.9754882"></ellipse>
+                        <mask id="mask-6" sketch:name="Mask" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <use id="Mask" stroke="none" fill="#1B1B21" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

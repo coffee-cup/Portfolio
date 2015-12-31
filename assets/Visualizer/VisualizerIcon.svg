@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="86px" height="93px" viewBox="0 0 86 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>VisualizerIcon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-8" sketch:type="MSArtboardGroup" transform="translate(-177.000000, -46.000000)">
+            <g id="VisualizerIcon" sketch:type="MSLayerGroup" transform="translate(177.000000, 46.000000)">
+                <path d="M4,79 L0,79 L0,14 L4,14 L4,79 Z M14,22 L10,22 L10,71 L14,71 L14,22 Z M24,22 L20,22 L20,70 L24,70 L24,22 Z M35,18 L31,18 L31,74 L35,74 L35,18 Z M45,11 L41,11 L41,81 L45,81 L45,11 Z M55,4 L51,4 L51,88 L55,88 L55,4 Z M65,0 L61,0 L61,93 L65,93 L65,0 Z M75,1 L71,1 L71,92 L75,92 L75,1 Z M86,9 L82,9 L82,84 L86,84 L86,9 Z" id="Shadow" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M4,79 L0,79 L0,14 L4,14 L4,79 Z M14,22 L10,22 L10,71 L14,71 L14,22 Z M24,22 L20,22 L20,70 L24,70 L24,22 Z M35,18 L31,18 L31,74 L35,74 L35,18 Z M45,11 L41,11 L41,81 L45,81 L45,11 Z M55,4 L51,4 L51,88 L55,88 L55,4 Z M65,0 L61,0 L61,93 L65,93 L65,0 Z M75,1 L71,1 L71,92 L75,92 L75,1 Z M86,9 L82,9 L82,84 L86,84 L86,9 Z" id="Icon" fill="#383838" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
