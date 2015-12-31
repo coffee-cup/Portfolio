@@ -36,8 +36,8 @@ export default [{
   'made': 'Sketch, Swift, IOS Cocoa',
   'website': false,
   'github': 'https://github.com/coffee-cup/DailyUI',
-  'screenshot1': '/DailyUI/Calculatorscreenshot.png',
-  'screenshot2': '/DailyUI/NotFoundscreenshot.png'
+  'screenshot1': '/DailyUI/CalculatorScreenshot.png',
+  'screenshot2': '/DailyUI/NotFoundScreenshot.png'
 }, {
   'title': 'SVG Music Visualizer',
   'short': 'Simple audio visualizer with html5 web audio api',
