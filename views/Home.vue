@@ -45,16 +45,15 @@
       </div>
 
       <div class="c80r">
-        <div class="s50m100">
+        <div class="copy-info s50m100">
           <p>
             If you’re wondering, <br>
-            I am a full stack developer constantly learning and building things for the web and IOS.
+            I am a developer who likes to work with the full stack. From designing user interfaces to coding algorithms on the server. I am constantly learning, improving my skills, and building things for the web and IOS.
           </p>
         </div>
-        <div class="s50m100">
+        <div class="copy-info s50m100">
           <p>
-            If you’re wondering, <br>
-            I am a full stack developer constantly learning and building things for the web and IOS.
+            I believe in simple, functional, and elegant design, and strive for that in my work. I am either in school or on a co-op but am always interested in internships or job opportunities. Please feel free to contact me below.
           </p>
         </div>
       </div>

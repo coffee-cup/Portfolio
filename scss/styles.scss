@@ -348,8 +348,10 @@ header {
   }
 }
 
-#space {
-  // margin-top: -0.5em;
+.copy-info:last-child {
+  @media (min-width: $mobile) {
+    padding-top: 1rem;
+  }
 }
 
 .screenshot img {
