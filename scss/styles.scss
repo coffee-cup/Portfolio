@@ -2,7 +2,7 @@
 @import 'sass-css3-mixins';
 @import '../bower_components/Scut/dist/scut';
 @import 'susy';
-@import 'animated';
+@import 'animate';
 @import 'variables';
 @import 'fonts';
 
@@ -248,7 +248,17 @@ $mobile-max: 94%;
   padding-bottom: 0;
 }
 
+// ANIMATIONS
+
+.fade-in-arrow {
+  @include fadeIn(1, $arrow-time, $arrow-delay);
+}
+
 // UTILS
+
+.pointer {
+  cursor: pointer;
+}
 
 .no-link {
   text-decoration: none;

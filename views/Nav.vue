@@ -2,8 +2,8 @@
 
     <nav class='c80r'>
       <span class="tright s100 nav-wrap">
-        <a href="#projects">projects</a>
-        <a href="#contact">contact</a>
+        <a data-scroll href="#projects">projects</a>
+        <a data-scroll href="#contact">contact</a>
       </span>
     </nav>
 

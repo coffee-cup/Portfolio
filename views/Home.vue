@@ -22,13 +22,13 @@
       </h2>
     </div>
 
-    <div id='arrow' class="s100 calign">
-      <img src="/down_arrow.svg" class='center-img'>
+    <div id='arrow' class="fade-in-arrow s100 calign">
+      <a data-scroll href="#welcome"><img src="/down_arrow.svg" class='pointer center-img'></a>
     </div>
 
   </div>
 
-  <div class="c100 main-colour row-section">
+  <div id='welcome' class="c100 main-colour row-section">
     <div class="s100">
 
       <div class="c80r">
@@ -53,7 +53,7 @@
         </div>
         <div class="copy-info s50m100">
           <p>
-            I believe in simple, functional, and elegant design, and strive for that in my work. I am either in school or on a co-op but am always interested in internships or job opportunities. Please feel free to contact me below.
+            I believe in simple, functional, and elegant design, and strive for that in my work. I am either in school or on a co-op but am always interested in internships or job opportunities. Please feel free to <a data-scroll class='underline' href="#contact">contact me below</a>.
           </p>
         </div>
       </div>
@@ -83,6 +83,8 @@
   import World from '../js/world.js';
   import projects from '../js/projects.js';
 
+  var smoothScroll = require('../js/lib/smoothScroll.min.js');
+
   export default {
     name: 'Home',
     data() {
@@ -92,6 +94,8 @@
     },
 
     ready: function() {
+      smoothScroll.init();
+
       var projects = $('.project');
       projects.last().css('border-bottom', 'none');
     }
