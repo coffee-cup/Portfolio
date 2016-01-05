@@ -1,3 +1,4 @@
+require('es6-promise').polyfill();
 var gulp = require('gulp');
 var p = require('gulp-load-plugins')();
 var PROD = p.util.env.type === 'production';
