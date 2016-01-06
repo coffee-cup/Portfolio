@@ -17,9 +17,12 @@
     </header>
 
     <div id="tagline" class="c80r">
-      <h2 class='s100 tcenter'>
+    <div class="header-image">
+        <img class='fit center-img' src="/passion.svg">
+      </div>
+      <!-- <h2 class='s100 tcenter'>
         My Passion is <span id="designing" class="serif">Designing</span> and <span id="developing" class='mono'>Developing</span> for the Internet
-      </h2>
+      </h2> -->
     </div>
 
     <div id='arrow' class="fade-in-arrow s100 calign">
@@ -64,17 +67,17 @@
   <s-header title="Things I've Done" hash="projects"></s-header>
 
   <s-project
-    v-for="project in projects"
-    :project="project"
-    :index="$index"
+  v-for="project in projects"
+  :project="project"
+  :index="$index"
   >
-  </s-project>
+</s-project>
 
-  <s-header title="Contact Me" hash="contact"></s-header>
+<s-header title="Contact Me" hash="contact"></s-header>
 
-  <m-contact></m-contact>
+<m-contact></m-contact>
 
-  <m-footer></m-footer>
+<m-footer></m-footer>
 
 </template>
 

@@ -85,6 +85,27 @@ $mobile-max: 94%;
   }
 }
 
+@mixin cont-m100($width) {
+  @include container($width);
+  @media (max-width: $mobile) {
+    @include container(100%);
+  }
+}
+
+.c50m100 {
+  @include cont-m100(50%);
+}
+
+.header-image {
+  @include container(40%);
+  @media (max-width: $tablet) {
+    @include container(80%);
+  }
+  @media (max-width: $mobile) {
+    @include container(80%);
+  }
+}
+
 .c80r {
   @include container(80%);
   @media (max-width: $tablet) {
@@ -174,6 +195,11 @@ $mobile-max: 94%;
 .mw100 {
   width: 100%;
   max-width: 100%;
+}
+
+.fit {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 // TYPOGRAPHY
