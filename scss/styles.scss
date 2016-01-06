@@ -97,7 +97,10 @@ $mobile-max: 94%;
 }
 
 .header-image {
-  @include container(30%);
+  @include container(20%);
+  @media (max-width: $large) {
+    @include container(30%);
+  }
   @media (max-width: $desktop) {
     @include container(40%);
   }
