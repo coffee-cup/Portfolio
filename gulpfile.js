@@ -38,6 +38,10 @@ gulp.task('html', function() {
 
 // Copy asset dir and copys to dest
 gulp.task('assets', function() {
+  // lets encrypt acme challenge verify
+  gulp.src(['assets/.well-known/acme-challenge/ZaRL0cHrYZtlfU15K4340IIh2_3zfavkU0LtmQkm_xY'])
+    .pipe(gulp.dest(dest + '/.well-known/acme-challenge'));
+
   return gulp.src(['assets/**/*.*', 'favicons/**/*.*'])
     .pipe(gulp.dest(dest))
 });
