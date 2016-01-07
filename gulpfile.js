@@ -38,7 +38,7 @@ gulp.task('html', function() {
 
 // Copy asset dir and copys to dest
 gulp.task('assets', function() {
-  return gulp.src(['assets/**/*.*', 'favicons/**/*.*'])
+  return gulp.src(['assets/**/*.*', 'assets/.*/**/*', 'favicons/**/*.*'])
     .pipe(gulp.dest(dest))
 });
 
