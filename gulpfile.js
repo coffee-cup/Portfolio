@@ -38,10 +38,6 @@ gulp.task('html', function() {
 
 // Copy asset dir and copys to dest
 gulp.task('assets', function() {
-  // lets encrypt acme challenge verify
-  gulp.src(['assets/.well-known/acme-challenge/ZaRL0cHrYZtlfU15K4340IIh2_3zfavkU0LtmQkm_xY'])
-    .pipe(gulp.dest(dest + '/.well-known/acme-challenge'));
-
   return gulp.src(['assets/**/*.*', 'favicons/**/*.*'])
     .pipe(gulp.dest(dest))
 });
@@ -55,19 +51,6 @@ gulp.task('fonts', function() {
     }))
     .pipe(gulp.dest(dest))
 });
-
-// Lints, Babels, Concats, Minifies,
-// gulp.task('js', function() {
-//   return gulp.src(['js/**/*.js'])
-//     .pipe(p.if(!PROD, p.sourcemaps.init()))
-//     .pipe(p.eslint())
-//     .pipe(p.babel())
-//     .pipe(p.eslint.format())
-//     .pipe(p.concat(js_dest))
-//     .pipe(p.if(!PROD, p.beautify(), p.uglify()))
-//     .pipe(p.if(!PROD, p.sourcemaps.write()))
-//     .pipe(gulp.dest(dest));
-// });
 
 gulp.task('lint', function() {
   return gulp.src('js/**/*.js')
