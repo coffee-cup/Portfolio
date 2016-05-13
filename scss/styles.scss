@@ -1,6 +1,6 @@
 @import 'normalize';
 @import 'sass-css3-mixins';
-@import '../bower_components/Scut/dist/scut';
+// @import '../bower_components/Scut/dist/scut';
 @import 'susy';
 @import 'animate';
 @import 'variables';
@@ -13,6 +13,7 @@ $susy: (
   global-box-sizing: border-box,
   gutter-position: inside
   );
+
 
 /* Makes border-box properties */
 @include border-box-sizing;

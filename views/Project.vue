@@ -10,14 +10,18 @@
             <h2 class='mb0 mt0'>{{project.title}}</h2>
             <p class='mt-05'>{{project.short}}</p>
             <p class='mb0 project-links'>
-                <a v-if='project.website' :href="project.website">
-                  website <span class="icomoon-link"></span>
-                </a>
-                <a v-if='project.download' :href="project.download">
-                  download <span class="icomoon-download"></span>
-                </a>
-                <span v-if='project.website'> | </span>
-                <span v-if='project.download'> | </span>
+              <a v-if='project.website' :href="project.website">
+                website <span class="icomoon-link"></span>
+              </a>
+              <a v-if='project.download' :href="project.download">
+                download <span class="icomoon-download"></span>
+              </a>
+              <a v-if='project.slack' :href="project.slack">
+                add to Slack <span class="icomoon-slack"></span>
+              </a>
+              <span v-if='project.website'> | </span>
+              <span v-if='project.download'> | </span>
+              <span v-if='project.slack'> | </span>
               <a :href="project.github">github <span class="icomoon-github"></span></a>
             </p>
           </div>

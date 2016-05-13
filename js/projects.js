@@ -1,4 +1,25 @@
 export default [{
+  'title': 'Noonbot',
+  'short': 'Slack bot for Noon Pacific',
+  'long': 'The music curation service, Noon Pacific was looking for someone to make a multi-team Slack bot that integrated with their platform. I reached out to the creators and made them this bot. The bot posts in your Slack channel when a new mixtape is released and allows you to easily query all previous playlists.',
+  'logo': '/NoonBot/NoonBotLogo.svg',
+  'made': 'JavaScript, Slack API',
+  'slack': 'https://slack.com/oauth/pick_reflow?client_id=10239525859.33334334823&redirect_uri=https%3A%2F%2Fbeepboophq.com%2Fapi%2Fslack%2Fauth%2Fadd-to-slack&scope=bot%2Ccommands&state=%7B%22Token%22%3A%22eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJMU0kiOiIwYzk3MjliMTQ3MDA0NmRjOGJiNmE4OWE1MWRhMzBlZiIsIlMiOjkyNzI4ODIxMSwiZXhwIjoxNDYzMTEyNzQxfQ.UYuM2db34bQ_lGEbdm-gRKq5jNjYXok6NLKdwcJqgS5e29fTd528Ft3HkZLW_ILbjJKmnrYxNtF4Fm-t0RYf5A%22%2C%22PrototypeID%22%3A%220c9729b1470046dc8bb6a89a51da30ef%22%7D',
+  'website': false,
+  'github': 'https://github.com/NoonPacific/Noon-Bot',
+  'screenshot1': '/NoonBot/NoonBotScreenshot1.png',
+  'screenshot2': '/NoonBot/NoonBotScreenshot2.png'
+}, {
+  'title': 'Fakt',
+  'short': 'Slash command for random facts',
+  'long': 'Simple Slack slash command that gives you a random fact from Wikipedia. It was a small weekend project that includes a preview website and a NPM library you can use to query for random facts or article titles.',
+  'logo': '/Fakt/FaktLogo.svg',
+  'made': 'ES6, React, Webpack',
+  'website': 'https://faktbot.xyz',
+  'github': 'https://github.com/coffee-cup/wikifakt',
+  'screenshot1': '/Fakt/FaktScreenshot1.png',
+  'screenshot2': '/Fakt/FaktScreenshot2.png'
+}, {
   'title': 'Wish List',
   'short': 'Online gift registry for holidays and events',
   'long': 'Inspired by wedding registries, Wish List is an online gift registry for all holidays and events. Copy and paste Amazon links to items you would like, or link photos and add notes about items you see in the store. Invite your friends and family to your list and they can see exactly what you want when a special time of year approaches. It was originally created in 48 hours.',
