@@ -18,7 +18,7 @@
 
     <div id="tagline" class="c80r">
     <div class="header-image">
-        <img class='fit center-img' src="/passion.svg">
+        <img class='fit fade-in-passion center-img' src="/passion.svg">
       </div>
       <!-- <h2 class='s100 tcenter'>
         My Passion is <span id="designing" class="serif">Designing</span> and <span id="developing" class='mono'>Developing</span> for the Internet

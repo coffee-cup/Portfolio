@@ -287,6 +287,10 @@ $mobile-max: 94%;
   @include fadeIn(1, $arrow-time, $arrow-delay);
 }
 
+.fade-in-passion {
+  @include fadeIn(1, $arrow-time);
+}
+
 // UTILS
 
 .pointer {
