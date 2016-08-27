@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="13.6723995%" y1="86.3259733%" x2="86.3313019%" y2="13.6718512%" id="linearGradient-1">
+            <stop stop-color="#46EAE7" offset="0%"></stop>
+            <stop stop-color="#4E50B8" offset="100%"></stop>
+        </linearGradient>
+        <path d="M91.6660524,197.317325 C167.836656,149.720649 296.890738,138.171194 372.839785,90.7129618 C448.788833,43.2547297 455.566391,0.432359995 455.566391,0.432359995 L455.5664,319.335944 L0.390139048,319.335936 C0.390139048,319.335936 15.4954482,244.914001 91.6660524,197.317325 L91.6660524,197.317325 Z" id="path-2"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="-0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.595844656 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#000000" stop-opacity="0.1" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="App-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Icon">
+                <rect id="Background" fill="url(#linearGradient-1)" x="0" y="0" width="500" height="500"></rect>
+                <g id="Mask" transform="translate(44.433594, 180.664062)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                        <use fill="#F44336" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <rect id="Rectangle-79" fill="url(#linearGradient-5)" mask="url(#mask-3)" x="-44.4335938" y="-180.664062" width="500" height="500"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

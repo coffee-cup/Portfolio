@@ -1,4 +1,15 @@
 export default [{
+  'title': 'Solis',
+  'short': 'Sunrise, sunset, and twilight time tracker app for iOS',
+  'long': 'iOS app that uses a simple gradient to show you how light or dark it is for any city in the world. Toggle notifications for sunrise, sunset, first light, and last light. Golden and blue hour are cleary shown for the perfect photography light. You can even learn about the different times of day and twilights.',
+  'logo': '/Solis/SolisIcon.svg',
+  'made': 'Swift, Cocoa',
+  'slack': false,
+  'website': 'http://solisapp.xyz',
+  'github': 'https://github.com/coffee-cup/solis',
+  'screenshot1': '/Solis/SolisScreenshot2.png',
+  'screenshot2': '/Solis/SolisScreenshot1.png'
+}, {
   'title': 'Noonbot',
   'short': 'Slack bot for Noon Pacific',
   'long': 'The music curation service, Noon Pacific was looking for someone to make a multi-team Slack bot that integrated with their platform. I reached out to the creators and made them this bot. The bot posts in your Slack channel when a new mixtape is released and allows you to easily query all previous playlists.',
