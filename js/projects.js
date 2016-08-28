@@ -1,7 +1,7 @@
 export default [{
   'title': 'Solis',
   'short': 'Sunrise, sunset, and twilight time tracker app for iOS',
-  'long': 'iOS app that uses a simple gradient to show you how light or dark it is for any city in the world. Toggle notifications for sunrise, sunset, first light, and last light. Golden and blue hour are cleary shown for the perfect photography light. You can even learn about the different times of day and twilights.',
+  'long': 'iOS app that uses a simple gradient to show you how light or dark it is for any city in the world. Toggle notifications for sunrise, sunset, first light, and last light. Golden and blue hour are clearly shown for the perfect photography light. You can even learn about the different times of day and twilights.',
   'logo': '/Solis/SolisIcon.svg',
   'made': 'Swift, Cocoa',
   'slack': false,
