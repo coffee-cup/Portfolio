@@ -10,16 +10,15 @@ export default [{
   'screenshot1': '/Solis/SolisScreenshot2.png',
   'screenshot2': '/Solis/SolisScreenshot1.png'
 }, {
-  'title': 'Noonbot',
-  'short': 'Slack bot for Noon Pacific',
-  'long': 'The music curation service, Noon Pacific was looking for someone to make a multi-team Slack bot that integrated with their platform. I reached out to the creators and made them this bot. The bot posts in your Slack channel when a new mixtape is released and allows you to easily query all previous playlists.',
-  'logo': '/NoonBot/NoonBotLogo.svg',
-  'made': 'JavaScript, Slack API',
-  'slack': 'https://slack.com/oauth/pick_reflow?client_id=10239525859.33334334823&redirect_uri=https%3A%2F%2Fbeepboophq.com%2Fapi%2Fslack%2Fauth%2Fadd-to-slack&scope=bot%2Ccommands&state=%7B%22Token%22%3A%22eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJMU0kiOiIwYzk3MjliMTQ3MDA0NmRjOGJiNmE4OWE1MWRhMzBlZiIsIlMiOjkyNzI4ODIxMSwiZXhwIjoxNDYzMTEyNzQxfQ.UYuM2db34bQ_lGEbdm-gRKq5jNjYXok6NLKdwcJqgS5e29fTd528Ft3HkZLW_ILbjJKmnrYxNtF4Fm-t0RYf5A%22%2C%22PrototypeID%22%3A%220c9729b1470046dc8bb6a89a51da30ef%22%7D',
-  'website': false,
-  'github': 'https://github.com/NoonPacific/Noon-Bot',
-  'screenshot1': '/NoonBot/NoonBotScreenshot1.png',
-  'screenshot2': '/NoonBot/NoonBotScreenshot2.png'
+  'title': 'White Label JavaScript SDK',
+  'short': 'JavaScript library to use the While Label music platform',
+  'long': 'White Label is a platform that provides a better way to curate and share great music. It powers Noon Pacific, curated great music. The JavaScript SDK is a thin wrapper around the WL API that gives developers an easy way to access their collections and mixtapes.',
+  'logo': '/WLJS/WLJSIcon.svg',
+  'made': 'ES7, Async/Await, Webpack',
+  'website': 'http://whitelabel.cool/',
+  'github': 'https://github.com/White-Label/JavaScript-SDK',
+  'screenshot1': '/WLJS/WLJSScreenshot1.png',
+  'screenshot2': '/WLJS/WLJSScreenshot2.png'
 }, {
   'title': 'Fakt',
   'short': 'Slash command for random facts',
@@ -30,6 +29,17 @@ export default [{
   'github': 'https://github.com/coffee-cup/wikifakt',
   'screenshot1': '/Fakt/FaktScreenshot1.png',
   'screenshot2': '/Fakt/FaktScreenshot2.png'
+}, {
+  'title': 'Noonbot',
+  'short': 'Slack bot for Noon Pacific',
+  'long': 'The music curation service, Noon Pacific was looking for someone to make a multi-team Slack bot that integrated with their platform. I reached out to the creators and made them this bot. The bot posts in your Slack channel when a new mixtape is released and allows you to easily query all previous playlists.',
+  'logo': '/NoonBot/NoonBotLogo.svg',
+  'made': 'JavaScript, Slack API',
+  'slack': 'https://slack.com/oauth/pick_reflow?client_id=10239525859.33334334823&redirect_uri=https%3A%2F%2Fbeepboophq.com%2Fapi%2Fslack%2Fauth%2Fadd-to-slack&scope=bot%2Ccommands&state=%7B%22Token%22%3A%22eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJMU0kiOiIwYzk3MjliMTQ3MDA0NmRjOGJiNmE4OWE1MWRhMzBlZiIsIlMiOjkyNzI4ODIxMSwiZXhwIjoxNDYzMTEyNzQxfQ.UYuM2db34bQ_lGEbdm-gRKq5jNjYXok6NLKdwcJqgS5e29fTd528Ft3HkZLW_ILbjJKmnrYxNtF4Fm-t0RYf5A%22%2C%22PrototypeID%22%3A%220c9729b1470046dc8bb6a89a51da30ef%22%7D',
+  'website': false,
+  'github': 'https://github.com/NoonPacific/Noon-Bot',
+  'screenshot1': '/NoonBot/NoonBotScreenshot1.png',
+  'screenshot2': '/NoonBot/NoonBotScreenshot2.png'
 }, {
   'title': 'Wish List',
   'short': 'Online gift registry for holidays and events',
